@@ -1,4 +1,5 @@
-public enum FuelType {
+public enum FuelType 
+{
     Diesel,
     Gasoline,
     Electricity,

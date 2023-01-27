@@ -7,4 +7,12 @@ public abstract class Car {
     public string Model {get; init;}
     public int NumberOfSeats {get; set;}
     public FuelType Fuel {get; set;}
+
+    public void Repaint(string NewColor)
+    {
+        this.Color = NewColor;
+        Console.WriteLine("This car has been repainted. It is now " + NewColor + ".");
+    }
+
+    public abstract double CountVelocity(); 
 }
